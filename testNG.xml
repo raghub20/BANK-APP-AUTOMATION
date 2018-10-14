@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Sample test suite">
+	<test name = "sample test1">
+		<classes>
+			<class name="com.manoj.AppTest">
+				<methods>
+					<exclude name="test1"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name = "sample test2">
+		<classes>
+			<class name="com.manoj.AppTest">
+			</class>
+		</classes>
+	</test>
+</suite>
+
